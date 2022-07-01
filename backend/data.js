@@ -42,7 +42,7 @@ const data = {
       category: 'Pants',
       image: 'https://m.media-amazon.com/images/I/71t2MOBgtcL._AC_UL480_FMwebp_QL65_.jpg',
       price: 65,
-      countInStock: 5,
+      countInStock: 0,
       brand: 'Puma',
       rating: 5,
       numReviews: 10,

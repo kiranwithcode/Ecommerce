@@ -58,6 +58,7 @@ const Rating = ({ numReviews, rating }) => {
           }
         />
       </span>
+      <span>{numReviews} reviewers</span>
     </div>
   );
 };
