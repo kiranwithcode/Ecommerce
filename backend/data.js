@@ -1,4 +1,19 @@
+import bcrpt from 'bcryptjs'
 const data = {
+  users: [
+    {
+      name: "Kiran",
+      email: "codewithkiran11@example.com",
+      password: bcrpt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: "Meena",
+      email: "meena@example.com",
+      password: bcrpt.hashSync('123456'),
+      isAdmin: false,
+    }
+  ],
   products: [
     {
       // _id: '1',
@@ -52,7 +67,6 @@ const data = {
       numReviews: 10,
       description: 'high quality product',
     },
-
 
   ],
 };
