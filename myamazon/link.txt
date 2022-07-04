@@ -1,1 +1,0 @@
-mongodb+srv://codewithkiran:Anushka@0684@cluster0.k3axp.mongodb.net/amazon?retryWrites=true&w=majority
