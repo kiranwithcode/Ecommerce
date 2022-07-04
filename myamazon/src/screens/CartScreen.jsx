@@ -36,7 +36,7 @@ const CartScreen = () => {
   }
 
   const checkOutHandler = () => {
-    navigate('signin?redirect=/shipping')
+    navigate('/signin?redirect=/shipping')
   }
 
   return (

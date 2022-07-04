@@ -42,5 +42,10 @@ img{
 .img-thumbnail{
   height: 80px;
 }
+.container-small{
+  border: 1px solid #1d1c1c83;
+  border-radius: 5px;
+  width: 500px;
+}
 
 
