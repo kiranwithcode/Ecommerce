@@ -43,9 +43,17 @@ img{
   height: 80px;
 }
 .container-small{
-  border: 1px solid #1d1c1c83;
   border-radius: 5px;
   width: 500px;
+}
+
+.checkout-steps > div{
+    border-bottom: 0.2rem solid #a0a0a0;
+    color: #a0a0a0;
+}
+.checkout-steps > div.active{
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
 }
 
 
